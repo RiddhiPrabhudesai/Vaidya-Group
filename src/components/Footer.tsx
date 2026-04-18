@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Page } from '../types';
+import { assetPath } from '../lib/utils';
 
 const SOCIAL_LINKS = [
   {
@@ -35,7 +36,7 @@ export default function Footer({ setPage }: { setPage: (page: Page) => void }) {
         <div className="md:col-span-2">
           <div className="mb-8 pointer-events-none">
             <img 
-              src="/logoupdated.png" 
+              src={assetPath('logoupdated.png')} 
               alt="Vaidya Group Logo" 
               className="h-14 w-auto object-contain" 
               referrerPolicy="no-referrer"

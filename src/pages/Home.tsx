@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import { MousePointer2, ShieldCheck, Users, Building2, ArrowRight, Waves, Gem, Wind, LayoutGrid, CheckCircle2 } from 'lucide-react';
 import { Page } from '../types';
 import { PROJECTS } from '../constants';
+import { assetPath } from '../lib/utils';
 
 interface HomeProps {
   setPage: (page: Page) => void;
@@ -35,7 +36,7 @@ export default function Home({ setPage, onProjectClick }: HomeProps) {
           className="absolute inset-0 z-0 bg-midnight"
         >
           <img 
-            src="/herobanner.JPG" 
+            src={assetPath('herobanner.JPG')} 
             alt="Vaidya Group - Architectural Excellence" 
             className="w-full h-full object-cover object-center filter brightness-100 contrast-[1.05]"
             referrerPolicy="no-referrer"

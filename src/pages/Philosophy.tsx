@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ShieldCheck, Users, TrendingDown, Clock, Building2, Heart } from 'lucide-react';
+import { assetPath } from '../lib/utils';
 
 export default function Philosophy() {
   return (
@@ -59,7 +60,7 @@ export default function Philosophy() {
                 className="absolute inset-0"
               >
                 <img 
-                  src="/SagarSociety.jpg" 
+                  src={assetPath('SagarSociety.jpg')} 
                   alt="Sagar Society" 
                   className="w-full h-full object-cover brightness-105 group-hover:scale-105 transition-all duration-1500"
                   referrerPolicy="no-referrer"

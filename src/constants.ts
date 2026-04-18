@@ -1,4 +1,5 @@
 import { Project, Testimonial } from './types';
+import { assetPath } from './lib/utils';
 
 export const PROJECTS: Project[] = [
   {
@@ -9,7 +10,7 @@ export const PROJECTS: Project[] = [
     status: 'Ongoing',
     category: ['Living', 'Investment', 'Future Growth'],
     location: 'Pimpri, Pune',
-    image: '/SagarSociety.jpg',
+    image: assetPath('SagarSociety.jpg'),
     units: 42,
     highlight: '42 Premium 2 BHK Homes',
     configuration: 'Premium 2 BHK Homes',
@@ -29,7 +30,7 @@ export const PROJECTS: Project[] = [
     status: 'Completed',
     category: ['Living'],
     location: 'Near Bus Stand, Satara',
-    image: '/aaijagdamba.jpg',
+    image: assetPath('aaijagdamba.jpg'),
     units: 28,
     highlight: '28 Families Rooted in Comfort',
     configuration: '28 Flats | 1 BHK Homes',
@@ -51,7 +52,7 @@ export const PROJECTS: Project[] = [
     status: 'Completed',
     category: ['Living'],
     location: 'Tukaram Nagar, Satara',
-    image: '/starresidency.JPG',
+    image: assetPath('starresidency.JPG'),
     units: 9,
     highlight: '9 Exclusive Urban Units',
     configuration: '9 Flats | 1 BHK Homes',
@@ -73,7 +74,7 @@ export const PROJECTS: Project[] = [
     status: 'Completed',
     category: ['Living'],
     location: 'Satara',
-    image: '/aashirwad.JPG',
+    image: assetPath('aashirwad.JPG'),
     units: 13,
     highlight: '13 Premium Residences',
     configuration: '13 Flats | 2 BHK Homes',
@@ -94,7 +95,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '1',
     name: 'Rajesh Patil',
     role: 'IT Professional',
-    image: '/maleavatar.png',
+    image: assetPath('maleavatar.png'),
     story: {
       before: 'Struggling with builders who never delivered on time.',
       decision: 'Chose Vaidya Group for their transparent cooperative model.',
@@ -106,7 +107,7 @@ export const TESTIMONIALS: Testimonial[] = [
     id: '2',
     name: 'Anita Deshmukh',
     role: 'Business Owner',
-    image: '/femaleavatar.png',
+    image: assetPath('femaleavatar.png'),
     story: {
       before: 'Worried about high margins and hidden costs.',
       decision: 'Trust was the deciding factor after meeting the team.',

@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, MessageCircle, Phone } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { Page } from '../types';
-import { cn } from '../lib/utils';
+import { assetPath, cn } from '../lib/utils';
 
 interface NavbarProps {
   currentPage: Page;
@@ -54,7 +54,7 @@ export default function Navbar({ currentPage, setPage }: NavbarProps) {
           onClick={() => setPage('home')}
         >
           <img 
-            src="/logoupdated.png" 
+            src={assetPath('logoupdated.png')} 
             alt="Vaidya Group Logo" 
             className="h-12 md:h-14 w-auto object-contain transition-all duration-500"
             referrerPolicy="no-referrer"

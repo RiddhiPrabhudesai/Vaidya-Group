@@ -13,6 +13,7 @@ import Contact from './pages/Contact';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import AccessibilityStatement from './pages/AccessibilityStatement';
 import { Page } from './types';
+import { assetPath } from './lib/utils';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>('home');
@@ -69,7 +70,7 @@ export default function App() {
             >
               <div className="flex flex-col items-center mb-12">
                 <img 
-                  src="/logoupdated.png" 
+                  src={assetPath('logoupdated.png')} 
                   alt="Vaidya Group Logo" 
                   className="h-32 w-auto object-contain" 
                   referrerPolicy="no-referrer"

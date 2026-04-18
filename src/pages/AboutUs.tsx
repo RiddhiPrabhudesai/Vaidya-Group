@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Page } from '../types';
 import { ShieldCheck, Target, Layers, Users, Building2, CheckCircle2, Trophy, Landmark } from 'lucide-react';
+import { assetPath } from '../lib/utils';
 
 interface AboutUsProps {
   setPage: (page: Page) => void;
@@ -97,7 +98,7 @@ export default function AboutUs({ setPage }: AboutUsProps) {
             >
               <div className="w-full max-w-[280px] aspect-[4/5] bg-[#F5EFE7] rounded-xl overflow-hidden relative group">
                 <img 
-                  src="/director1.JPG" 
+                  src={assetPath('director1.JPG')} 
                   alt="Prashant Vaidya" 
                   className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -122,7 +123,7 @@ export default function AboutUs({ setPage }: AboutUsProps) {
             >
               <div className="w-full max-w-[280px] aspect-[4/5] bg-[#F5EFE7] rounded-xl overflow-hidden relative group">
                 <img 
-                  src="/director2.JPG" 
+                  src={assetPath('director2.JPG')} 
                   alt="Guruprasad Vaidya" 
                   className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                   referrerPolicy="no-referrer"
