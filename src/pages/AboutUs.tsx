@@ -98,7 +98,7 @@ export default function AboutUs({ setPage }: AboutUsProps) {
             >
               <div className="w-full max-w-[280px] aspect-[4/5] bg-[#F5EFE7] rounded-xl overflow-hidden relative group">
                 <img 
-                  src={assetPath('director1.JPG')} 
+                  src={assetPath('director1.jpg')} 
                   alt="Prashant Vaidya" 
                   className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                   referrerPolicy="no-referrer"
@@ -123,7 +123,7 @@ export default function AboutUs({ setPage }: AboutUsProps) {
             >
               <div className="w-full max-w-[280px] aspect-[4/5] bg-[#F5EFE7] rounded-xl overflow-hidden relative group">
                 <img 
-                  src={assetPath('director2.JPG')} 
+                  src={assetPath('director2.jpg')} 
                   alt="Guruprasad Vaidya" 
                   className="w-full h-full object-cover transition-all duration-1000 group-hover:scale-105"
                   referrerPolicy="no-referrer"

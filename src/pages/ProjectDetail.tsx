@@ -84,8 +84,8 @@ export default function ProjectDetail({ setPage, id }: ProjectDetailProps) {
             {project.id === 'sagar' && (
               <div>
                 <a
-                  href={assetPath('SagarSocietyBrochure.pdf')}
-                  download="SagarSocietyBrochure.pdf"
+                  href={assetPath('sagarsocietybrochure.pdf')}
+                  download="sagarsocietybrochure.pdf"
                   className="inline-flex items-center justify-center px-8 md:px-10 py-4 bg-midnight text-white rounded-none hover:bg-gold hover:text-midnight transition-all text-[10px] font-bold uppercase tracking-[0.3em] md:tracking-[0.4em] shadow-xl w-full sm:w-auto"
                 >
                   Download Brochure
