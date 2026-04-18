@@ -36,7 +36,7 @@ export default function Footer({ setPage }: { setPage: (page: Page) => void }) {
         <div className="md:col-span-2">
           <div className="mb-8 pointer-events-none">
             <img 
-              src={assetPath('logoupdated.png')} 
+              src={assetPath('images/logoupdated.png')} 
               alt="Vaidya Group Logo" 
               className="h-14 w-auto object-contain" 
               referrerPolicy="no-referrer"

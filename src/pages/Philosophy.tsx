@@ -60,7 +60,7 @@ export default function Philosophy() {
                 className="absolute inset-0"
               >
                 <img 
-                  src={assetPath('sagarsociety.jpg')} 
+                  src={assetPath('images/sagarsociety.jpg')} 
                   alt="Sagar Society" 
                   className="w-full h-full object-cover brightness-105 group-hover:scale-105 transition-all duration-1500"
                   referrerPolicy="no-referrer"

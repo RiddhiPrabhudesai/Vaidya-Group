@@ -70,7 +70,7 @@ export default function App() {
             >
               <div className="flex flex-col items-center mb-12">
                 <img 
-                  src={assetPath('logoupdated.png')} 
+                  src={assetPath('images/logoupdated.png')} 
                   alt="Vaidya Group Logo" 
                   className="h-32 w-auto object-contain" 
                   referrerPolicy="no-referrer"

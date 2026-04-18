@@ -54,7 +54,7 @@ export default function Navbar({ currentPage, setPage }: NavbarProps) {
           onClick={() => setPage('home')}
         >
           <img 
-            src={assetPath('logoupdated.png')} 
+            src={assetPath('images/logoupdated.png')} 
             alt="Vaidya Group Logo" 
             className="h-12 md:h-14 w-auto object-contain transition-all duration-500"
             referrerPolicy="no-referrer"

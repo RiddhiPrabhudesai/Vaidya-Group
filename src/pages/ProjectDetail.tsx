@@ -84,7 +84,7 @@ export default function ProjectDetail({ setPage, id }: ProjectDetailProps) {
             {project.id === 'sagar' && (
               <div>
                 <a
-                  href={assetPath('sagarsocietybrochure.pdf')}
+                  href={assetPath('files/sagarsocietybrochure.pdf')}
                   download="sagarsocietybrochure.pdf"
                   className="inline-flex items-center justify-center px-8 md:px-10 py-4 bg-midnight text-white rounded-none hover:bg-gold hover:text-midnight transition-all text-[10px] font-bold uppercase tracking-[0.3em] md:tracking-[0.4em] shadow-xl w-full sm:w-auto"
                 >
@@ -168,9 +168,9 @@ export default function ProjectDetail({ setPage, id }: ProjectDetailProps) {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
             {[
-              { title: 'Premium Hardware', desc: 'Solid brass handles designed for weight, durability, and a comfortable grip.', img: assetPath('brasshandles.jpg') },
-              { title: 'Durable Windows', desc: 'High-quality aluminum frames designed for silent operation and long-lasting performance.', img: assetPath('window.jpg') },
-              { title: 'Smart Lighting', desc: 'Thoughtfully planned internal lighting designed to match your natural daily routine.', img: assetPath('naturallight.jpg') },
+              { title: 'Premium Hardware', desc: 'Solid brass handles designed for weight, durability, and a comfortable grip.', img: assetPath('images/brasshandles.jpg') },
+              { title: 'Durable Windows', desc: 'High-quality aluminum frames designed for silent operation and long-lasting performance.', img: assetPath('images/window.jpg') },
+              { title: 'Smart Lighting', desc: 'Thoughtfully planned internal lighting designed to match your natural daily routine.', img: assetPath('images/naturallight.jpg') },
             ].map((detail, idx) => (
               <motion.div 
                 key={idx} 
